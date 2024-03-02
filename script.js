@@ -1,6 +1,7 @@
 let msg="Hello";
 
-document.getElementById("btn").addEventListener("click", printMessage());
+let btn = document.getElementById("btn");
+//btn.addEventListener("click", printMessage());
 
 function randomMessage(){
     let num = Math.floor(Math.random()*6);
@@ -11,5 +12,5 @@ function randomMessage(){
 
 function printMessage(){
 
-    document.getElementById("message").innerText=randomMessage();
+    document.getElementById("message").textContent=randomMessage();
 }

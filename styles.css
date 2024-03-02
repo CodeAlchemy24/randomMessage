@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+    color:teal;
+
+    width:400px;
+
+    display:block;
+    text-align: center;
+}
+
+h2{ width: 80%;
+ padding: 10px;}
+
+div{
+    background-color: teal;
+    color:lightblue;
+    width:360px;
+    margin:20px auto;
+}
+
+button{
+    background-color: goldenrod;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding: 6px 12px;
+}
